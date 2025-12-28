@@ -1,15 +1,27 @@
-CMakeLists.txt.user
+# ---- Visual Studio ----
+.vs/
+**/.vs/
+ipch/
+**/ipch/
+*.ipch
+*.VC.db
+*.opendb
+*.suo
+*.user
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+x64/
+# ---- CMake build artifacts ----
+build/
+cmake-build-*/
+CMakeFiles/
 CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
 cmake_install.cmake
-install_manifest.txt
+Makefile
+*.ninja
 compile_commands.json
-CTestTestfile.cmake
-_deps
-CMakeUserPresets.json
+
 
 # CLion
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
