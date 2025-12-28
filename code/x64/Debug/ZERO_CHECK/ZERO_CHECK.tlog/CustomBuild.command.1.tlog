@@ -1,0 +1,10 @@
+^D:\计算机图形学\期末大作业\实验补充2_留空代码\CMAKEFILES\FDEA6699F7EFF5315DFFFB6CE7B9C488\GENERATE.STAMP.RULE
+setlocal
+D:\cmake\bin\cmake.exe -SD:/计算机图形学/期末大作业/实验补充2_留空代码 -BD:/计算机图形学/期末大作业/实验补充2_留空代码 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/计算机图形学/期末大作业/实验补充2_留空代码/main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
