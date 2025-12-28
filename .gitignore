@@ -8,10 +8,10 @@ ipch/
 *.opendb
 *.suo
 *.user
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
-x64/
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+x64
 # ---- CMake build artifacts ----
 build/
 cmake-build-*/
